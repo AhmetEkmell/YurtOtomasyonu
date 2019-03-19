@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3288864D-634E-444C-9EC8-929D75A73ED8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FrmMain</RootNamespace>
+    <AssemblyName>Yurt Otomasyonu</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>EducationHouse.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmAddExpense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddExpense.Designer.cs">
+      <DependentUpon>FrmAddExpense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdmin.Designer.cs">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdminOperations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdminOperations.Designer.cs">
+      <DependentUpon>FrmAdminOperations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDepartmentNewName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDepartmentNewName.Designer.cs">
+      <DependentUpon>FrmDepartmentNewName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEarningStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEarningStatistics.Designer.cs">
+      <DependentUpon>FrmEarningStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmployeeOperations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmployeeOperations.Designer.cs">
+      <DependentUpon>FrmEmployeeOperations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExpenseList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExpenseList.Designer.cs">
+      <DependentUpon>FrmExpenseList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExpenseStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExpenseStatistics.Designer.cs">
+      <DependentUpon>FrmExpenseStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReceivePayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReceivePayment.Designer.cs">
+      <DependentUpon>FrmReceivePayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStudentDeleting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStudentDeleting.Designer.cs">
+      <DependentUpon>FrmStudentDeleting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStudentList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStudentList.Designer.cs">
+      <DependentUpon>FrmStudentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddCard.Designer.cs">
+      <DependentUpon>FrmAddCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDepartmentActions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDepartmentActions.Designer.cs">
+      <DependentUpon>FrmDepartmentActions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectPortDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectPortDialog.Designer.cs">
+      <DependentUpon>FrmSelectPortDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStudentEditer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStudentEditer.Designer.cs">
+      <DependentUpon>FrmStudentEditer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStudentRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStudentRegister.Designer.cs">
+      <DependentUpon>FrmStudentRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStudentTracking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStudentTracking.Designer.cs">
+      <DependentUpon>FrmStudentTracking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="YurtOtomasyonuDataSet.cs">
+      <DependentUpon>YurtOtomasyonuDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="YurtOtomasyonuDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YurtOtomasyonuDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="YurtOtomasyonuDataSetEmployee.cs">
+      <DependentUpon>YurtOtomasyonuDataSetEmployee.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="YurtOtomasyonuDataSetEmployee.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YurtOtomasyonuDataSetEmployee.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="YurtOtomasyonuDataSetExpenseList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YurtOtomasyonuDataSetExpenseList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="YurtOtomasyonuDataSeti.cs">
+      <DependentUpon>YurtOtomasyonuDataSeti.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="YurtOtomasyonuDataSeti.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YurtOtomasyonuDataSeti.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmAddExpense.resx">
+      <DependentUpon>FrmAddExpense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdmin.resx">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdminOperations.resx">
+      <DependentUpon>FrmAdminOperations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDepartmentNewName.resx">
+      <DependentUpon>FrmDepartmentNewName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEarningStatistics.resx">
+      <DependentUpon>FrmEarningStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmployeeOperations.resx">
+      <DependentUpon>FrmEmployeeOperations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExpenseList.resx">
+      <DependentUpon>FrmExpenseList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExpenseStatistics.resx">
+      <DependentUpon>FrmExpenseStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReceivePayment.resx">
+      <DependentUpon>FrmReceivePayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStudentDeleting.resx">
+      <DependentUpon>FrmStudentDeleting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStudentList.resx">
+      <DependentUpon>FrmStudentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddCard.resx">
+      <DependentUpon>FrmAddCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDepartmentActions.resx">
+      <DependentUpon>FrmDepartmentActions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectPortDialog.resx">
+      <DependentUpon>FrmSelectPortDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStudentEditer.resx">
+      <DependentUpon>FrmStudentEditer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStudentRegister.resx">
+      <DependentUpon>FrmStudentRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStudentTracking.resx">
+      <DependentUpon>FrmStudentTracking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="YurtOtomasyonuDataSet.xsc">
+      <DependentUpon>YurtOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YurtOtomasyonuDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YurtOtomasyonuDataSet.xss">
+      <DependentUpon>YurtOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSetEmployee.xsc">
+      <DependentUpon>YurtOtomasyonuDataSetEmployee.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSetEmployee.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YurtOtomasyonuDataSetEmployee.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YurtOtomasyonuDataSetEmployee.xss">
+      <DependentUpon>YurtOtomasyonuDataSetEmployee.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSetExpenseList.xsc">
+      <DependentUpon>YurtOtomasyonuDataSetExpenseList.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSetExpenseList.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YurtOtomasyonuDataSetExpenseList.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YurtOtomasyonuDataSetExpenseList.xss">
+      <DependentUpon>YurtOtomasyonuDataSetExpenseList.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSeti.xsc">
+      <DependentUpon>YurtOtomasyonuDataSeti.xsd</DependentUpon>
+    </None>
+    <None Include="YurtOtomasyonuDataSeti.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YurtOtomasyonuDataSeti.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YurtOtomasyonuDataSeti.xss">
+      <DependentUpon>YurtOtomasyonuDataSeti.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EducationHouse.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istatistik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acceptTickIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disallowedIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\osymLogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gsbLogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firatLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EducationHouse.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

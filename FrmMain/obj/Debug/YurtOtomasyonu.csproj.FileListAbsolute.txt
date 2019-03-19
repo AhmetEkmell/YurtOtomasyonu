@@ -1,0 +1,27 @@
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\YurtOtomasyonu.csprojAssemblyReference.cache
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmAddExpense.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmAdmin.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmAdminOperations.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmDepartmentNewName.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmEarningStatistics.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmEmployeeOperations.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmExpenseList.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmExpenseStatistics.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmReceivePayment.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmStudentDeleting.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmStudentList.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmAddCard.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmDepartmentActions.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmMain.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmSelectPortDialog.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmStudentEditer.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmStudentRegister.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.FrmStudentTracking.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\FrmMain.Properties.Resources.resources
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\YurtOtomasyonu.csproj.GenerateResource.cache
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\YurtOtomasyonu.csproj.CoreCompileInputs.cache
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\bin\Debug\Yurt Otomasyonu.exe.config
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\bin\Debug\Yurt Otomasyonu.exe
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\bin\Debug\Yurt Otomasyonu.pdb
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\Yurt Otomasyonu.exe
+D:\PROJECTS\DATABASE\YurtOtomasyonu\FrmMain\obj\Debug\Yurt Otomasyonu.pdb
