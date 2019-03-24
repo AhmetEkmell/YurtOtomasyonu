@@ -64,6 +64,14 @@ C# ve SQL Server ile geliştirilen öğrenci yurtları için bir otomasyon.
 ### Erişim Kolaylığı
 ![Erişim Kolaylığı Sekmesi](Additional/Screenshots/10.PNG)
 
+# EKLER 
+
+### ER Diyagramı 
+![ER Diyagramı](Additional/ERDiagram.jpg) 
+### Tablolar Arası İlişkiler 
+![Tablolar Arası İlişkiler](Additional/TableRelationships.PNG)
+
+
 
 
 ## Ortaklar
@@ -71,8 +79,5 @@ C# ve SQL Server ile geliştirilen öğrenci yurtları için bir otomasyon.
 ### Ahmet Ekmel YEŞİLYURT ---> 
 ### Harun AĞCA --------------> https://github.com/HarunAGCA
 ### Fahrettin VARLIK -------->
-
-
-
 
 
