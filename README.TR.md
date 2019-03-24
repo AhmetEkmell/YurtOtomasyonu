@@ -1,4 +1,6 @@
-# YurtOtomasyonu
+##### To Read English : [English README](/README.EN.md)
+
+# YurtOtomasyonu 
 C# ve SQL Server ile geliştirilen öğrenci yurtları için bir otomasyon.
 
 
