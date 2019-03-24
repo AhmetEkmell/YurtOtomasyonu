@@ -74,11 +74,6 @@ An automation for student dorms that developed with C# and SQL Server.
 
 ## Contributors
 
-### Ahmet Ekmel YEŞİLYURT ---> 
-### Harun AĞCA --------------> https://github.com/HarunAGCA
-### Fahrettin VARLIK -------->
-
-
-
-
-
+### Ahmet Ekmel YEŞİLYURT ---> https://github.com/AhmetEkmell
+### Harun AĞCA ----------------> https://github.com/HarunAGCA
+### Fahrettin VARLIK ----------->
