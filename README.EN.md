@@ -62,6 +62,14 @@ An automation for student dorms that developed with C# and SQL Server.
 ### Accessibility
 ![Accessibility Tab](Additional/Screenshots/10.PNG)
 
+# Additionals 
+
+### ER Diagram
+![ER Diagram](Additional/ERDiagram.jpg) 
+### Relationships Between Tables
+![Relationships Between Tables](Additional/TableRelationships.PNG)
+
+
 
 
 ## Contributors
