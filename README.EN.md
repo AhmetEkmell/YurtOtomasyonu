@@ -54,7 +54,7 @@ An automation for student dorms that developed with C# and SQL Server.
 
 ### Student Tracking
 
-To use this feature, you must have an Arduino and RC522 RFID card reader.
+To use this feature, you must have an Arduino and RC522 RFID card reader.<br>
 The code to be loaded into Arduino can be found in the VTYS folder under the additional folder.
 
 ![Student Tracking Tab](Additional/Screenshots/09.PNG)
