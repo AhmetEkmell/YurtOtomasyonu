@@ -56,7 +56,8 @@ C# ve SQL Server ile geliştirilen öğrenci yurtları için bir otomasyon.
 
 ### Öğrenci Takip
 
-Bu özelliği kullanabilmek için Arduino ve RC522 RFID kart okuyucuya sahip olmalısınız. 
+
+Bu özelliği kullanabilmek için Arduino ve RC522 RFID kart okuyucuya sahip olmalısınız.<br>
 Arduino'ya yüklenecek kodları additional klasorünün altında VTYS klasöründe bulabilirsiniz.
 
 ![Öğrenci Takip Sekmesi](Additional/Screenshots/09.PNG)
